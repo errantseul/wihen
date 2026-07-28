@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "icon": "📦",
+      "name": "App Premium",
+      "subcategories": [
+        {
+          "icon": " ",
+          "name": "Streaming App",
+          "items": [
+            { "name": "Netflix Non Sharing", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Netflix Sharing", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Disney+", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "LokLok", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Viu", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Bstation", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "HBO Max", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "iQIYI", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Prime Video", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Vidio", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "WeTV", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "YouTube", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Melolo", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "Editing App",
+          "items": [
+            { "name": "Canva", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "CapCut", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Ibis Paint", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Meitu", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "PicsArt", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Wink", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "AM", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "AM Arsa", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "AI App",
+          "items": [
+            { "name": "ChatGPT", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Gemini", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "Telegram Needs",
+          "items": [
+            { "name": "Telegram Premium", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Telegram Stars", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "🎯",
+      "name": "Topup Game",
+      "subcategories": [
+        {
+          "icon": " ",
+          "name": "Topup Populer",
+          "items": [
+            { "name": "Robux (Via Login)", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Robux (Via Username)", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Diamond Free Fire", "prices": [ { "label": "Isi harga", "price": "-" } ] },
+            { "name": "Gift In-Game Roblox", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

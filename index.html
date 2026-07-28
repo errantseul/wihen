@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>wihenstore</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site">
+
+  <div class="floaters">
+    <span>☘️</span><span>🍎</span><span>💌</span>
+  </div>
+
+  <div class="frame">
+
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <div class="tb-left">🐱 Wihen Store</div>
+      <div class="tb-right">🍀🌿</div>
+    </div>
+
+    <!-- BROWSER BAR -->
+    <div class="browser-bar">
+      <div class="browser-url">link repo</div>
+    </div>
+
+    <!-- NAV TABS -->
+    <div class="nav" id="nav">
+      <button data-panel="home" class="active">🏡 homepage</button>
+      <button data-panel="pricelist">🍅 pricelist</button>
+      <button data-panel="tnc">📌 tnc</button>
+      <button data-panel="gcress">💌 gc ress</button>
+      <button data-panel="etc">💬</button>
+    </div>
+
+    <!-- PANELS -->
+    <div class="panels">
+
+      <!-- HOME (HERO & KONTEN HOME DI SINI) -->
+      <div class="panel active" id="home">
+        <div class="hero">
+          <img src="assets/header.jpg" alt="Wihen Store" class="hero-banner" style="width:100%; border-radius:12px; display:block;">
+        </div>
+      </div>
+
+      <!-- PRICELIST -->
+      <div class="panel" id="pricelist">
+        <div class="section-title">🧸 Pricelist</div>
+        <p class="section-sub">tap kategori untuk buka, lalu tap nama aplikasi untuk lihat harganya</p>
+
+        <div id="pricelist-loading" class="section-sub">memuat data produk...</div>
+
+        <div id="pricelist-app"></div>
+      </div>
+
+      <!-- TNC -->
+      <div class="panel" id="tnc">
+        <div class="section-title">📌 terms & conditions</div>
+        <p class="section-sub">baca pelan-pelan sebelum order ya~</p>
+
+        <div class="corkboard">
+          <div class="pin-card">
+            <div class="tape"></div>
+            <h4>Lorem ipsum</h4>
+              <li class="do">Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+              <li class="do">Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+              <li class="do">Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+              <li class="do">Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+          </div>
+          <div class="pin-card">
+            <div class="tape"></div>
+            <h4>Lorem impsum</h4>
+            <ul>
+              <li class="dont">Lorem ipsum, dolor sit amet consectetur adipisicing elit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- GC RESS -->
+      <div class="panel" id="gcress">
+        <div class="section-title">💌 gc reseller</div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, silakan baca info di bawah sebelum join gc reservasi.</p>
+
+        <div class="section-title" style="font-size:15px; margin-top:18px;">🔗 link gc ress</div>
+        <div class="link-list">
+          <a href="#">link gc reseller <span>→</span></a>
+        </div>
+
+      </div>
+
+      <!-- ETC -->
+      <div class="panel" id="etc">
+        <div class="section-title">💬 etc </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <div class="section-title" style="font-size:14px; margin-top:16px;">🔗 link</div>
+        <table class="data-table">
+          <tbody>
+            <tr><td>gc ress berbayar</td><td><a href="#">buka link</a></td></tr>
+            <tr><td>channel archive</td><td><a href="#">buka link</a></td></tr>
+            <tr><td>proof wihen</td><td><a href="#">buka link</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact">
+      <div class="contact-row">
+        <a class="contact-chip" href="#" target="_blank" rel="noopener">
+          <span class="label">WhatsApp</span>
+        </a>
+        <a class="contact-chip" href="#" target="_blank" rel="noopener">
+          <span class="label">Telegram</span>
+        </a>
+        <a class="contact-chip" href="#" target="_blank" rel="noopener">
+          <span class="label">Instagram</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">wihenstore</div>
+
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
