@@ -90,6 +90,10 @@ body{
   padding: 0;
 }
 
+.panel#home {
+  padding: 0 !important;
+}
+
 .topbar{
   background:var(--leaf-dark);
   color:#F3F7EC;
