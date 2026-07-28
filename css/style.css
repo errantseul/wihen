@@ -40,8 +40,8 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none; /* Supaya tidak sengaja ke-klik dan mengganggu */
-  z-index: 999;        /* Di atas atau di bawah frame sesuai selera */
+  pointer-events: none; 
+  z-index: 999;  
   overflow: hidden;
 }
 
@@ -87,6 +87,7 @@ body{
   overflow:hidden;
   box-shadow: 0 18px 40px -14px rgba(67,107,51,0.35);
   position:relative;
+  padding: 0;
 }
 
 .topbar{
@@ -133,13 +134,18 @@ body{
 /* ===== HERO (gambar banner) ===== */
 .hero{
   padding:0;
+  margin: 0;
   background:var(--paper);
   overflow:hidden;
+  line-height: 0;
 }
 .hero-banner{
   display:block;
   width:100%;
   height:auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
 }
 
 /* ===== nav tabs ===== */
