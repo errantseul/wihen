@@ -547,22 +547,33 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
   justify-content:center;
   flex-wrap:wrap;
 }
+
 .contact-chip{
-  text-decoration:none;
-  background:var(--paper);
-  color:var(--ink);
-  border-radius:14px;
-  padding:10px 14px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-  font-size:12.5px;
-  font-weight:600;
-  min-width:118px;
-  box-shadow:0 3px 0 rgba(0,0,0,0.15);
-  transition:transform .15s ease;
+  text-decoration: none;
+  background-color: var(--paper);
+  /* Menambahkan motif polkadot halus di dalam kotak */
+  background-image: radial-gradient(var(--leaf-mid) 1.2px, transparent 1.2px);
+  background-size: 8px 8px;
+  color: var(--ink);
+  border: 2px solid var(--leaf-light);
+  border-radius: 14px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  min-width: 118px;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.15);
+  transition: transform .15s ease;
 }
-.contact-chip:hover{ transform:translateY(-2px); }
-.contact-chip .label{ text-align:center; line-height:1.2; }
-.contact-chip .label small{ display:block; color:var(--ink-soft); font-weight:500; font-size:10px; }
+
+/* Beri warna beda-beda tipis biar makin variatif atau pakai warna solid */
+.contact-chip:nth-child(1) { background-color: var(--blush); border-color: #f0b8ac; color: var(--tomato-dark); }
+.contact-chip:nth-child(2) { background-color: var(--leaf-light); border-color: var(--leaf-mid); color: var(--leaf-dark); }
+.contact-chip:nth-child(3) { background-color: #FDEFC7; border-color: #dfcb91; color: #8a6b16; }
+
+.contact-chip:hover{ transform: translateY(-2px); }
+.contact-chip .label{ text-align: center; line-height: 1.2; }
+.contact-chip .label small{ display: block; color: var(--ink-soft); font-weight: 500; font-size: 10px; }
