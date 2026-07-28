@@ -52,7 +52,6 @@ body{
   animation: floatRandom 6s ease-in-out infinite;
 }
 
-/* Kita buat variasi posisi acak untuk setiap emoji */
 .floaters span:nth-child(1){ top: 10%; left: 5%; animation-delay: 0s; animation-duration: 5s; }
 .floaters span:nth-child(2){ top: 20%; right: 8%; animation-delay: 1.2s; animation-duration: 6.5s; }
 .floaters span:nth-child(3){ top: 45%; left: 3%; animation-delay: 0.5s; animation-duration: 5.5s; }
