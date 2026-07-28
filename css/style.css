@@ -154,36 +154,39 @@ body{
 
 /* ===== nav tabs ===== */
 .nav{
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  gap:4px;
-  padding:10px 10px 8px;
+  gap: 4px;
+  padding: 10px 10px 8px;
+  background: var(--paper);
+  background-image: radial-gradient(var(--leaf-mid) 1.2px, transparent 1.2px);
+  background-size: 10px 10px;
+  border-bottom: 3px solid var(--leaf-light);
   overflow-x: visible;
-  background:var(--paper);
-  border-bottom:3px solid var(--leaf-light);
 }
 .nav::-webkit-scrollbar{ display:none; }
 .nav button{
   flex: 1;
-  font-family:'Fredoka', sans-serif;
-  font-size:11.5px;
-  font-weight:500;
-  color:var(--leaf-dark);
-  background:var(--leaf-light);
-  border:2px solid transparent;
-  padding:6px 4px;
-  border-radius:10px;
-  cursor:pointer;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--leaf-dark);
+  background: var(--paper);
+  border: 2px solid var(--leaf-mid);
+  padding: 6px 4px;
+  border-radius: 10px;
+  cursor: pointer;
   transition: all .18s ease;
-  white-space:nowrap;
+  white-space: nowrap;
+  text-align: center;
 }
-.nav button:hover{ background:#cfe6b3; }
+.nav button:hover{ background: var(--leaf-light); }
 .nav button.active{
-  background:var(--leaf);
-  color:#fff;
-  border-color:var(--leaf-dark);
+  background: var(--leaf);
+  color: #fff;
+  border-color: var(--leaf-dark);
   box-shadow: 0 2px 0 var(--leaf-dark);
-  transform:translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .panels{ position:relative; background:var(--paper); }
