@@ -554,12 +554,3 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
 .contact-chip:hover{ transform:translateY(-2px); }
 .contact-chip .label{ text-align:center; line-height:1.2; }
 .contact-chip .label small{ display:block; color:var(--ink-soft); font-weight:500; font-size:10px; }
-
-.footer{
-  text-align:center;
-  padding:14px;
-  background:var(--paper);
-  color:var(--ink-soft);
-  font-family:'Caveat', cursive;
-  font-size:15px;
-}
