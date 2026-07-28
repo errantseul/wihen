@@ -72,6 +72,13 @@ body{
   }
 }
 
+@media (max-width: 480px) {
+  /* Aturan CSS khusus untuk HP dengan layar di bawah 480px */
+  .site {
+    padding: 0 8px;
+  }
+}
+
 /* ===== main card frame ===== */
 .frame{
   background:var(--cream);
