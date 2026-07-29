@@ -1,14 +1,14 @@
 :root{
   --cream:#FFFDF3;
   --paper:#FFFFFB;
-  --leaf-dark:#2F8F3B;
-  --leaf:#6FCF5A;
-  --leaf-mid:#A6E86F;
-  --leaf-light:#E4F9C9;
-  --tomato:#FF5B3D;
-  --tomato-dark:#E8432A;
-  --tomato-light:#FFC9B8;
-  --blush:#FFDCD1;
+  --leaf-dark:#3CAE5C;
+  --leaf:#6FE38D;
+  --leaf-mid:#A4F0BB;
+  --leaf-light:#E6FBEA;
+  --tomato:#FF7A68;
+  --tomato-dark:#F2604E;
+  --tomato-light:#FFD3CB;
+  --blush:#FFE7E1;
   --ink:#3E3226;
   --ink-soft:#6B5D4C;
   --wood:#B98A5E;
@@ -73,13 +73,6 @@ body{
   }
 }
 
-@media (max-width: 480px) {
-  /* Aturan CSS khusus untuk HP dengan layar di bawah 480px */
-  .site {
-    padding: 0 8px;
-  }
-}
-
 /* ===== main card frame ===== */
 .frame{
   background:var(--cream);
@@ -128,12 +121,15 @@ body{
   border: 2px solid var(--leaf-mid);
   border-radius: 999px;
   padding: 4px 12px;
-  font-size: 11.5px;
+  font-size: clamp(10px, 2.6vw, 11.5px);
   color: var(--ink-soft);
   font-family: 'Quicksand', sans-serif;
   display: flex;
   align-items: center;
   gap: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* ===== HERO (gambar banner) ===== */
@@ -169,12 +165,12 @@ body{
 .nav button{
   flex: 1;
   font-family: 'Fredoka', sans-serif;
-  font-size: 11.5px;
+  font-size: clamp(9.5px, 2.6vw, 11.5px);
   font-weight: 500;
   color: var(--leaf-dark);
   background: var(--paper);
   border: 2px solid var(--leaf-mid);
-  padding: 6px 4px;
+  padding: 6px 2px;
   border-radius: 10px;
   cursor: pointer;
   transition: all .18s ease;
@@ -280,7 +276,7 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
   align-items:center;
   gap:10px;
   background:var(--blush);
-  border:2px solid #f0b8ac;
+  border:2px solid var(--tomato-light);
   border-radius:18px;
   padding:14px 18px;
   font-family:'Fredoka', sans-serif;
@@ -334,7 +330,7 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
 }
 .subcat-label.c1{ color:var(--tomato-dark); }
 .subcat-label.c2{ color:var(--leaf-dark); }
-.subcat-label.c3{ color:#8a6b16; }
+.subcat-label.c3{ color:#a5822b; }
 
 .app-pill-wrap{
   display:flex;
@@ -353,7 +349,7 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
 }
 .app-pill.c1{ background:var(--blush); color:var(--tomato-dark); }
 .app-pill.c2{ background:var(--leaf-light); color:var(--leaf-dark); }
-.app-pill.c3{ background:#FDEFC7; color:#8a6b16; }
+.app-pill.c3{ background:#FFF3D6; color:#a5822b; }
 .app-pill:hover{ filter:brightness(0.94); }
 
 /* VIEW 3: detail harga 1 item */
@@ -513,8 +509,8 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
 }
 .pin-card ul{ margin:0; padding-left:18px; }
 .pin-card li{ font-size:12.8px; margin-bottom:4px; }
-.do::marker{ content:" "; }
-.dont::marker{ content:""; }
+.do::marker{ content:"🍀 "; }
+.dont::marker{ content:"🍅 "; }
 
 /* ===== contact / order ===== */
 .contact{
@@ -557,18 +553,26 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-size: 11.5px;
+  font-size: clamp(10px, 2.8vw, 11.5px);
   font-weight: 600;
-  min-width: 95px;
+  min-width: 0;
   box-shadow: 0 2px 0 rgba(0,0,0,0.15);
   transition: transform .15s ease;
   white-space: nowrap;
 }
 
-.contact-chip:nth-child(1) { background-color: var(--blush); border-color: #f0b8ac; color: var(--tomato-dark); }
+.contact-chip:nth-child(1) { background-color: var(--blush); border-color: var(--tomato-light); color: var(--tomato-dark); }
 .contact-chip:nth-child(2) { background-color: var(--leaf-light); border-color: var(--leaf-mid); color: var(--leaf-dark); }
-.contact-chip:nth-child(3) { background-color: #FDEFC7; border-color: #dfcb91; color: #8a6b16; }
+.contact-chip:nth-child(3) { background-color: #FFF3D6; border-color: #e8d69f; color: #a5822b; }
 
 .contact-chip:hover{ transform: translateY(-2px); }
 .contact-chip .label{ text-align: center; line-height: 1.2; }
 .contact-chip .label small{ display: block; color: var(--ink-soft); font-weight: 500; font-size: 10px; }
+
+/* ===== responsif: layar HP kecil (<=380px) ===== */
+@media (max-width: 380px){
+  .site{ padding: 0; }
+  .nav button{ padding: 6px 2px; }
+  .contact-chip{ padding: 6px 1px; letter-spacing: -0.2px; }
+  .contact-chip .label small{ font-size: 9px; }
+}
