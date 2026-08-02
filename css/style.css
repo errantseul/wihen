@@ -88,6 +88,23 @@ body{
   padding: 0 !important;
 }
 
+/* teks sambutan di homepage (di bawah gambar header) */
+.home-intro{
+  padding: 22px 20px 28px;
+}
+.home-greet{
+  font-family:'Caveat', cursive;
+  font-size:19px;
+  color:var(--tomato-dark);
+  margin:0 0 12px;
+}
+.home-intro p{
+  margin:0 0 10px;
+}
+.home-intro p:last-child{
+  margin-bottom:0;
+}
+
 .topbar{
   background:var(--leaf-dark);
   color:#F3F7EC;
@@ -221,6 +238,7 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
   background:var(--leaf-light);
   border:2px dashed var(--leaf-mid);
   border-radius:16px;
+  padding:14px 16px;
 }
 .about-card p{ color:var(--leaf-dark); margin:0; }
 
@@ -509,8 +527,24 @@ p, li{ font-size:14px; line-height:1.6; color:var(--ink-soft); }
 }
 .pin-card ul{ margin:0; padding-left:18px; }
 .pin-card li{ font-size:12.8px; margin-bottom:4px; }
-.do::marker{ content:"🍀 "; }
-.dont::marker{ content:"🍅 "; }
+
+/* list tanpa bullet default (dipakai TNC & Etc) */
+.rules-list{ list-style:none; padding-left:2px; margin:0; }
+.rules-list li{ margin-bottom:8px; }
+.rules-list li:last-child{ margin-bottom:0; }
+
+/* TNC pakai bullet emoji hamster, tanpa perlu ketik manual di teks */
+#tnc .rules-list li{
+  display:flex;
+  align-items:flex-start;
+  gap:7px;
+}
+#tnc .rules-list li::before{
+  content:"🐹";
+  flex:0 0 auto;
+  font-size:13px;
+  line-height:1.6;
+}
 
 /* ===== contact / order ===== */
 .contact{
