@@ -8,47 +8,611 @@
           "icon": " ",
           "name": "Streaming App",
           "items": [
-            { "name": "Netflix", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Disney+", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "LokLok", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Viu", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Bstation", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "HBO Max", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "iQIYI", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Prime Video", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Vidio", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "WeTV", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "YouTube", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Melolo", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+            {
+              "name": "Netflix",
+              "prices": [
+                {
+                  "label": "1 Profile 1 User — 1 Hari",
+                  "price": "5.000"
+                },
+                {
+                  "label": "1 Profile 1 User — 3 Hari",
+                  "price": "10.000"
+                },
+                {
+                  "label": "1 Profile 1 User — 1 Minggu",
+                  "price": "14.000"
+                },
+                {
+                  "label": "1 Profile 1 User — 1 Bulan",
+                  "price": "30.000"
+                },
+                {
+                  "label": "1 Profile 2 User — 1 Hari",
+                  "price": "3.000"
+                },
+                {
+                  "label": "1 Profile 2 User — 3 Hari",
+                  "price": "8.000"
+                },
+                {
+                  "label": "1 Profile 2 User — 1 Minggu",
+                  "price": "12.000"
+                },
+                {
+                  "label": "1 Profile 2 User — 1 Bulan",
+                  "price": "25.000"
+                },
+                {
+                  "label": "Semi Private (2 device) — 1 Bulan",
+                  "price": "38.000"
+                }
+              ]
+            },
+            {
+              "name": "Disney+",
+              "prices": [
+                {
+                  "label": "6 User — 1 Hari",
+                  "price": "4.000"
+                },
+                {
+                  "label": "6 User — 3 Hari",
+                  "price": "8.000"
+                },
+                {
+                  "label": "6 User — 1 Minggu",
+                  "price": "12.000"
+                },
+                {
+                  "label": "6 User — 1 Bulan",
+                  "price": "25.000"
+                },
+                {
+                  "label": "3 User — 1 Hari",
+                  "price": "5.000"
+                },
+                {
+                  "label": "3 User — 3 Hari",
+                  "price": "11.000"
+                },
+                {
+                  "label": "3 User — 1 Minggu",
+                  "price": "18.000"
+                },
+                {
+                  "label": "3 User — 1 Bulan",
+                  "price": "40.000"
+                }
+              ]
+            },
+            {
+              "name": "LokLok",
+              "prices": [
+                {
+                  "label": "Sharing Basic — 1 Bulan",
+                  "price": "20.000"
+                },
+                {
+                  "label": "Sharing Standar — 1 Bulan",
+                  "price": "30.000"
+                }
+              ]
+            },
+            {
+              "name": "Viu",
+              "prices": [
+                {
+                  "label": "1 Hari",
+                  "price": "1.000"
+                },
+                {
+                  "label": "3 Hari",
+                  "price": "2.000"
+                },
+                {
+                  "label": "1 Minggu",
+                  "price": "6.000"
+                },
+                {
+                  "label": "1 Bulan",
+                  "price": "7.000"
+                },
+                {
+                  "label": "1 Tahun",
+                  "price": "30.000"
+                }
+              ]
+            },
+            {
+              "name": "Bstation",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Minggu",
+                  "price": "4.000"
+                },
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "10.000"
+                },
+                {
+                  "label": "Sharing — 1 Tahun",
+                  "price": "25.000"
+                },
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "35.000"
+                }
+              ]
+            },
+            {
+              "name": "HBO Max",
+              "prices": [
+                {
+                  "label": "Sharing Standard — 1 Bulan",
+                  "price": "15.000"
+                },
+                {
+                  "label": "Sharing Ultimate — 1 Bulan",
+                  "price": "25.000"
+                },
+                {
+                  "label": "Private Ultimate — 1 Bulan",
+                  "price": "85.000"
+                }
+              ]
+            },
+            {
+              "name": "iQIYI",
+              "prices": [
+                {
+                  "label": "Sharing Standar — 1 Bulan",
+                  "price": "15.000"
+                },
+                {
+                  "label": "Sharing Premium — 1 Bulan",
+                  "price": "20.000"
+                }
+              ]
+            },
+            {
+              "name": "Prime Video",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "12.000"
+                },
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "25.000"
+                }
+              ]
+            },
+            {
+              "name": "Vidio",
+              "prices": [
+                {
+                  "label": "Sharing Mobile — 1 Bulan",
+                  "price": "20.000"
+                },
+                {
+                  "label": "Sharing All Device — 1 Bulan",
+                  "price": "26.000"
+                },
+                {
+                  "label": "Private Mobile — 1 Bulan",
+                  "price": "30.000"
+                },
+                {
+                  "label": "Private All Device — 1 Bulan",
+                  "price": "36.000"
+                }
+              ]
+            },
+            {
+              "name": "WeTV",
+              "prices": [
+                {
+                  "label": "Sharing 6 User — 1 Bulan",
+                  "price": "9.000"
+                },
+                {
+                  "label": "Sharing 3 User — 1 Bulan",
+                  "price": "15.000"
+                },
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "30.000"
+                }
+              ]
+            },
+            {
+              "name": "YouTube",
+              "prices": [
+                {
+                  "label": "Famplan — 1 Bulan",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Indplan (Acc Buyer) — 1 Bulan",
+                  "price": "15.000"
+                },
+                {
+                  "label": "Indplan (Acc Seller) — 1 Bulan",
+                  "price": "20.000"
+                },
+                {
+                  "label": "Mixplan — 3 Bulan",
+                  "price": "20.000"
+                }
+              ]
+            },
+            {
+              "name": "Melolo",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "15.000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "Musik App",
+          "items": [
+            {
+              "name": "Apple Music",
+              "prices": [
+                {
+                  "label": "Famplan",
+                  "price": "10.000"
+                }
+              ]
+            },
+            {
+              "name": "Spotify",
+              "prices": [
+                {
+                  "label": "info",
+                  "price": "tanya lewat DM (harga naik turun)"
+                }
+              ]
+            }
           ]
         },
         {
           "icon": " ",
           "name": "Editing App",
           "items": [
-            { "name": "Canva", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "CapCut", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Ibis Paint", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Meitu", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "PicsArt", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Wink", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Alight Motion", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+            {
+              "name": "Canva",
+              "prices": [
+                {
+                  "label": "1 Bulan Member",
+                  "price": "8.000"
+                },
+                {
+                  "label": "1 Bulan Designer",
+                  "price": "10.000"
+                },
+                {
+                  "label": "1 Bulan Admin",
+                  "price": "12.000"
+                },
+                {
+                  "label": "1 Bulan Head",
+                  "price": "15.000"
+                }
+              ]
+            },
+            {
+              "name": "CapCut",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Minggu",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "15.000"
+                },
+                {
+                  "label": "Private — 1 Minggu",
+                  "price": "12.000"
+                },
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "25.000"
+                }
+              ]
+            },
+            {
+              "name": "Ibis Paint",
+              "prices": [
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "12.000"
+                },
+                {
+                  "label": "Private — 1 Tahun",
+                  "price": "30.000"
+                }
+              ]
+            },
+            {
+              "name": "Meitu",
+              "prices": [
+                {
+                  "label": "Private Andro (Gmail Buyer) — 1 Minggu",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Private Andro (Acc Seller) — 1 Minggu",
+                  "price": "12.000"
+                }
+              ]
+            },
+            {
+              "name": "PicsArt",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Private — 1 Bulan",
+                  "price": "12.000"
+                }
+              ]
+            },
+            {
+              "name": "Wink",
+              "prices": [
+                {
+                  "label": "Private Andro (Email Seller) — 1 Minggu",
+                  "price": "7.000"
+                }
+              ]
+            },
+            {
+              "name": "Alight Motion",
+              "prices": [
+                {
+                  "label": "Private Generator — 1 Tahun",
+                  "price": "5.000"
+                },
+                {
+                  "label": "Private Acc Buyer — 1 Tahun",
+                  "price": "15.000"
+                }
+              ]
+            }
           ]
         },
         {
           "icon": " ",
           "name": "AI App",
           "items": [
-            { "name": "ChatGPT", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Gemini", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+            {
+              "name": "ChatGPT",
+              "prices": [
+                {
+                  "label": "Sharing — 1 Hari",
+                  "price": "5.000"
+                },
+                {
+                  "label": "Sharing — 1 Minggu",
+                  "price": "10.000"
+                },
+                {
+                  "label": "Sharing — 1 Bulan",
+                  "price": "20.000"
+                }
+              ]
+            },
+            {
+              "name": "Gemini",
+              "prices": [
+                {
+                  "label": "Via Invite — 1 Bulan",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Via Invite — 6 Bulan",
+                  "price": "20.000"
+                }
+              ]
+            }
           ]
         },
         {
           "icon": " ",
           "name": "Telegram Needs",
           "items": [
-            { "name": "Telegram Premium", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Telegram Stars", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+            {
+              "name": "Telegram Premium",
+              "prices": [
+                {
+                  "label": "Via Login (Nomor Indo) — 1 Bulan",
+                  "price": "60.000"
+                },
+                {
+                  "label": "Via Login (Nomor Luar) — 1 Bulan",
+                  "price": "62.000"
+                },
+                {
+                  "label": "Via Gift — 3 Bulan",
+                  "price": "165.000"
+                }
+              ]
+            },
+            {
+              "name": "Telegram Stars",
+              "prices": [
+                {
+                  "label": "50 Stars",
+                  "price": "18.000"
+                },
+                {
+                  "label": "75 Stars",
+                  "price": "28.000"
+                },
+                {
+                  "label": "100 Stars",
+                  "price": "35.000"
+                },
+                {
+                  "label": "200 Stars",
+                  "price": "65.000"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "📱",
+      "name": "Kebutuhan Sosmed",
+      "subcategories": [
+        {
+          "icon": " ",
+          "name": "Nokos",
+          "items": [
+            {
+              "name": "Nokos",
+              "prices": [
+                {
+                  "label": "WhatsApp Nogar",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Telegram Nomor Indo",
+                  "price": "8.000"
+                },
+                {
+                  "label": "Telegram Nomor Luar",
+                  "price": "15.000 - 20.000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "Instagram",
+          "items": [
+            {
+              "name": "Followers Instagram",
+              "prices": [
+                {
+                  "label": "100 Followers Mix",
+                  "price": "8.000"
+                },
+                {
+                  "label": "500 Followers Mix",
+                  "price": "30.000"
+                },
+                {
+                  "label": "100 Followers Indo Aktif",
+                  "price": "18.000"
+                },
+                {
+                  "label": "200 Followers Indo Aktif",
+                  "price": "28.000"
+                },
+                {
+                  "label": "1000 Followers Indo Aktif",
+                  "price": "105.000"
+                }
+              ]
+            },
+            {
+              "name": "Like Instagram",
+              "prices": [
+                {
+                  "label": "100 Like",
+                  "price": "5.000"
+                },
+                {
+                  "label": "200 Like",
+                  "price": "12.000"
+                }
+              ]
+            },
+            {
+              "name": "Comment Instagram",
+              "prices": [
+                {
+                  "label": "50 Comment",
+                  "price": "10.000"
+                },
+                {
+                  "label": "100 Comment",
+                  "price": "18.000"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": " ",
+          "name": "TikTok",
+          "items": [
+            {
+              "name": "Followers TikTok",
+              "prices": [
+                {
+                  "label": "100 Followers",
+                  "price": "10.000"
+                },
+                {
+                  "label": "200 Followers",
+                  "price": "20.000"
+                }
+              ]
+            },
+            {
+              "name": "Like TikTok",
+              "prices": [
+                {
+                  "label": "100 Like",
+                  "price": "5.000"
+                },
+                {
+                  "label": "200 Like",
+                  "price": "10.000"
+                }
+              ]
+            },
+            {
+              "name": "Comment TikTok",
+              "prices": [
+                {
+                  "label": "50 Comment",
+                  "price": "10.000"
+                },
+                {
+                  "label": "100 Comment",
+                  "price": "18.000"
+                }
+              ]
+            },
+            {
+              "name": "Views TikTok",
+              "prices": [
+                {
+                  "label": "1000 Views",
+                  "price": "3.000"
+                },
+                {
+                  "label": "2000 Views",
+                  "price": "5.000"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -61,10 +625,78 @@
           "icon": " ",
           "name": "Topup Populer",
           "items": [
-            { "name": "Robux (Via Login)", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Robux (Via Username)", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Diamond Free Fire", "prices": [ { "label": "Isi harga", "price": "-" } ] },
-            { "name": "Gift In-Game Roblox", "prices": [ { "label": "Isi harga", "price": "-" } ] }
+            {
+              "name": "Robux (Via Login)",
+              "prices": [
+                {
+                  "label": "80 Robux",
+                  "price": "18.000"
+                },
+                {
+                  "label": "160 Robux",
+                  "price": "35.000"
+                },
+                {
+                  "label": "240 Robux",
+                  "price": "52.000"
+                },
+                {
+                  "label": "500 Robux",
+                  "price": "82.000"
+                }
+              ]
+            },
+            {
+              "name": "Robux (Via Username)",
+              "prices": [
+                {
+                  "label": "Rate per 1 Robux",
+                  "price": "140 perak"
+                }
+              ]
+            },
+            {
+              "name": "Diamond Free Fire",
+              "prices": [
+                {
+                  "label": "Membership 7 Hari",
+                  "price": "32.000"
+                },
+                {
+                  "label": "Membership 1 Bulan",
+                  "price": "85.000"
+                },
+                {
+                  "label": "50 Diamond",
+                  "price": "10.000"
+                },
+                {
+                  "label": "70 Diamond",
+                  "price": "12.000"
+                },
+                {
+                  "label": "100 Diamond",
+                  "price": "16.000"
+                },
+                {
+                  "label": "150 Diamond",
+                  "price": "23.000"
+                },
+                {
+                  "label": "200 Diamond",
+                  "price": "27.000"
+                }
+              ]
+            },
+            {
+              "name": "Gift In-Game Roblox",
+              "prices": [
+                {
+                  "label": "Rate per 1 Robux (pastikan barang bisa di-gift dari akun seller)",
+                  "price": "100 perak"
+                }
+              ]
+            }
           ]
         }
       ]
