@@ -81,8 +81,8 @@ function buildCategoryList(){
   const hint = document.createElement('div');
   hint.className = 'contact-hint';
   hint.innerHTML = `
-    <span class="hearts">♡ ♡ ♡</span>
-    belum nemu yang dicari? <a href="#">chat kami yuk</a>
+    <span class="hearts">🍎🍎🍎</span>
+    belum nemu yang dicari? <a href="#">chat wihen yuk</a>
   `;
   frag.appendChild(hint);
 
